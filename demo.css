@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+  }
+  
+  .about-left {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .about-right {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .section {
+    margin-top: 20px;
+  }
+  
+  .section:hover {
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .section li {
+    padding: 5px 0;
+  }
+  
+  .section li:hover {
+    background-color: #eaeaea;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
